@@ -1,0 +1,129 @@
+.pokemonCard{
+    width: 30rem;
+    height: 30rem;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.2);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+
+.pokemonCard__header{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pokemonCard__title{
+    font-size: 200%;
+    font-weight: 400;
+}
+
+.pokemonCard__labelWrapper{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.pokemonCard__type{
+    font-size: 70%;
+    padding: 0.3rem;
+    border-radius: 2rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    color: white;
+}
+
+.pokemonCard__type--Water{
+    background-color: #5CB8E4;
+}
+
+.pokemonCard__type--Ground{
+    background-color: #533535;
+}
+
+.pokemonCard__type--Fire{
+    background-color: rgba(205, 57, 57);
+}
+
+.pokemonCard__type--Grass{
+    background-color: rgb(57, 205, 84);
+}
+
+.pokemonCard__type--Electric{
+    background-color: rgb(175, 205, 57);
+}
+
+.pokemonCard__type--Fighting{
+    background-color: #d56723;
+}
+
+.pokemonCard__type--Steel{
+    background-color: #9eb7b8;
+}
+
+.pokemonCard__section{
+    height: 70%;
+}
+
+.pokemonCard__figure{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonCard__h3wrapper{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.pokemonCard__HP{
+    font-weight: 400;
+    font-size: 90%;
+}
+
+
+.pokemonCard__img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pokemonCard__footer{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.pokemonCard__button{
+    border: none;
+    background: none;
+    border: 0.1rem solid red;
+    padding: 0.5rem 4rem;
+    border-radius: 0.5rem;
+    color: #eee;
+    flex-grow: 1;
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.pokemonCard__button--attack{
+    background-color: #B8405E;
+}
+
+.pokemonCard__button--catch{
+    background-color: #2EB086;
+}
+
+
+@media screen and (max-width: 62.5rem){
+    .pokemonCard{
+        width: 100%;
+    }
+}
