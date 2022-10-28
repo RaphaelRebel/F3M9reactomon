@@ -1,4 +1,4 @@
-![Screenshot](/img/Reactomon.png)
+![Screenshot](/public/img/Reactomon.png)
 
 # Reactomon  
 
