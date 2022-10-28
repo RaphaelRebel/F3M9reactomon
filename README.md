@@ -1,3 +1,5 @@
+![Screenshot](/img/Reactomon.png)
+
 # Reactomon  
 
 A fun website created by a school teacher about pokemon battles!  
@@ -10,3 +12,4 @@ A fun website created by a school teacher about pokemon battles!
 * Your pokemon has a unique fight chance  
 * Use caught pokemon to fight with  
 * Choose your first pokemon  
+
